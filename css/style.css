@@ -1,0 +1,86 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{font-size: 18px; text-align: center; margin: 25px auto;}
+.wrap01 .leftSide{background: #fff; padding: 10px; border-radius: 5px;}
+.wrap01 .leftSide h3{font-size: 18px; font-weight: bold; margin-top: 0px;;}
+.wrap01 .leftSide h4{font-size: 13px; text-align: center; margin-bottom: 5px;}
+.wrap01 .leftSide h4 span{display: inline-block; border-bottom: 2px solid #ccc; width: 120px;}
+.wrap01 .leftSide ul li{list-style: none; display: inline-block; padding: 2px; background: #add898; color: #333; border-radius: 5px; margin: 6px 12px; font-weight: bold; width: 61px; text-align: center; transition: all 0.1s ease-in-out; cursor: pointer;}
+.wrap01 .leftSide ul li:hover{background: #50d20f !important;}
+.active-li{background: #50d20f !important;}
+.wrap01 .rightSide .card01 {padding: 20px; background: #fff; border-radius: 5px; margin-bottom: 30px;}
+.wrap01 .rightSide .card01 img{width: 100%; height: 180px;}
+.wrap01 .rightSide .card01 h3{font-size: 15px; font-weight: bold; color: #24417b; margin-top: 10px;}
+.wrap01 .rightSide .card01 h4{font-size: 14px; font-weight: bold; margin-bottom: 0px;}
+.wrap01 .rightSide .card01 ul li{margin-left: 25px; color: #b1acac;}
+.wrap01 .rightSide .card01 h5{font-size: 12px; font-weight: bold; margin-bottom: 0px;}
+.wrap01 .rightSide .card01 h5 span{color: #b1acac !important;}
+.wrap01 .rightSide .card01 h5:last-child span{margin-top: -10px; float: right;}
+
+/*------------ Responsive ------------*/
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+.col-sm-2 {width: 16.666667%; padding-left: 0px !important; padding-right: 0px !important;}
+.wrap01 .rightSide .card01{padding: 10px; margin-bottom: 15px; height: 420px;}
+.wrap01 .leftSide h4 span{width: 100px;}
+.wrap01 .leftSide ul li{margin: 6px 1px; width: 50px;}
+.wrap01 .rightSide .card01 ul li{margin-left: 15px;}
+.wrap01 .rightSide .card01 h5:last-child span{margin-top: 0px;float: none;}
+.wrap01 .rightSide .card01 h3{font-size: 13px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px){
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{margin: 0px 0px 20px 0px;}
+.wrap01 .leftSide{padding: 15px; margin-bottom: 20px;}
+.wrap01 .leftSide h4{font-size: 15px;}
+.wrap01 .leftSide h4 span{width: 200px;}
+.wrap01 .leftSide ul li{margin: 6px 19%;}
+.wrap01 .rightSide .card01 {margin-bottom: 20px; padding: 25px 50px;}
+}
+
+@media only screen and (max-width: 599px) and (min-width: 480px){
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{margin: 0px 0px 20px 0px;}
+.wrap01 .leftSide{padding: 15px; margin-bottom: 20px;}
+.wrap01 .leftSide h4{font-size: 15px;}
+.wrap01 .leftSide h4 span{width: 200px;}
+.wrap01 .leftSide ul li{margin: 6px 17%;}
+.wrap01 .rightSide .card01 {margin-bottom: 20px; padding: 25px 50px;}
+}
+
+@media only screen and (max-width: 479px) and (min-width: 360px){
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{margin: 0px 0px 20px 0px;}
+.wrap01 .leftSide{padding: 15px; margin-bottom: 20px;}
+.wrap01 .leftSide h4{font-size: 15px;}
+.wrap01 .leftSide h4 span{width: 200px;}
+.wrap01 .leftSide ul li{margin: 6px 14%;}
+.wrap01 .rightSide .card01 {margin-bottom: 20px; padding: 25px 50px;}
+}
+
+@media only screen and (max-width: 359px) and (min-width: 321px){
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{margin: 0px 0px 20px 0px;}
+.wrap01 .leftSide{padding: 15px; margin-bottom: 20px;}
+.wrap01 .leftSide h4{font-size: 15px;}
+.wrap01 .leftSide h4 span{width: 140px;}
+.wrap01 .leftSide ul li{margin: 6px 12%;}
+.wrap01 .rightSide .card01 {margin-bottom: 20px;}
+}
+
+@media only screen and (max-width: 320px){
+.wrap01{background: #F2F2F2;}
+.wrap01 h1{font-size: 28px; font-weight: bold;}
+.wrap01 h6{margin: 0px 0px 20px 0px;}
+.wrap01 .leftSide{padding: 15px; margin-bottom: 20px;}
+.wrap01 .leftSide h4{font-size: 15px;}
+.wrap01 .leftSide h4 span{width: 140px;}
+.wrap01 .leftSide ul li{margin: 6px 12%;}
+.wrap01 .rightSide .card01 {margin-bottom: 20px;}
+}

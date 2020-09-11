@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Template Design with Responsive</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- css files -->
+<link rel="stylesheet" href="css/bootstrap-min.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="wrap01">
+    <div class="container-fluid">
+        <h1>SpaceX Launch Programs</h1>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="leftSide">
+                    <h3>Filters</h3>
+                    <h4><span>Launch Year</span></h4>
+                    <ul>
+                        <li class="active-li">2006</li>
+                        <li>2007</li>
+                        <li>2008</li>
+                        <li>2009</li>
+                        <li>2010</li>
+                        <li>2011</li>
+                        <li>2012</li>
+                        <li>2013</li>
+                        <li>2014</li>
+                        <li>2015</li>
+                        <li>2016</li>
+                        <li>2017</li>
+                        <li>2018</li>
+                        <li>2019</li>
+                        <li>2020</li>
+                    </ul>
+                    <h4><span>Successful Launch</span></h4>
+                    <ul>
+                        <li>True</li>
+                        <li>False</li>
+                    </ul>
+                    <h4><span>Successful Landing</span></h4>
+                    <ul>
+                        <li>True</li>
+                        <li>False</li>
+                    </ul>    
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div class="rightSide">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture01.PNG" alt="Capture01" class="img-reposnive" />
+                                <h3>FalconSat #1</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>2006</span></h5>
+                                <h5>Successful Launch: <span>false</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture02.PNG" alt="Capture02" class="img-reposnive" />
+                                <h3>DemoSat #2</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>false</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture03.PNG" alt="Capture03" class="img-reposnive" />
+                                <h3>Trailblazer #3</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>False</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture04.PNG" alt="Capture04" class="img-reposnive" />
+                                <h3>RatSat #4</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>False</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture05.PNG" alt="Capture05" class="img-reposnive" />
+                                <h3>{mission_name} # {flight_number}</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>false</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture06.PNG" alt="Capture06" class="img-reposnive" />
+                                <h3>{mission_name} # {flight_number}</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>false</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture07.PNG" alt="Capture07" class="img-reposnive" />
+                                <h3>{mission_name} # {flight_number}</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>False</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card01">
+                                <img src="image/Capture08.PNG" alt="Capture08" class="img-reposnive" />
+                                <h3>{mission_name} # {flight_number}</h3>
+                                <h4>Mission Ids:</h4>
+                                <ul>
+                                    <li>{list mission ids}</li>
+                                </ul>
+                                <h5>Launch Year: <span>{launch_year}</span></h5>
+                                <h5>Successful Launch: <span>False</span></h5>
+                                <h5>Successful<br/>Landing: <span>{launch_landing}</span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h6><b>Developed by:</b> <span>{Anup Kumar}</span></h6>
+    </div>
+</div>
+
+<!-- js files -->
+<script type="text/javascript" src="js/jquery-min.js"></script>
+<script type="text/javascript" src="js/bootstrap-min.js"></script>
+</body>
+</html>
